@@ -14,7 +14,8 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.3.RELEASE</version>
+		<!-- TODO -->
+		<!-- <version>1.5.3.RELEASE</version> -->
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
@@ -43,12 +44,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			
-		      <plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>cobertura-maven-plugin</artifactId>
-				<version>2.7</version>
-		      </plugin>
 		</plugins>
 	</build>
 
