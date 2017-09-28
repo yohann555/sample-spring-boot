@@ -1,12 +1,22 @@
 package com.example;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.junit.Test;
+import static org.junit.Assert.assertTrue;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
-@SpringBootApplication
-public class DemoApplication {
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class DemoApplicationTests {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
-	}
+        @Test
+        public void contextLoads() {
+        }
+
+        @Test
+        public void myTest(){
+assertTrue(true);
 }
+}
+
