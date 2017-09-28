@@ -16,6 +16,6 @@ public class DemoApplicationTests {
 
 	@Test
 	public void myTest(){
-assertTrue(True);
+assertTrue(true);
 }
 }
