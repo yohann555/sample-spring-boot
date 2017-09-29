@@ -18,4 +18,18 @@ public class DemoApplicationTests {
 	public void myTest(){
 assertTrue(true);
 }
+
+	@Test
+	public void additionner_should_give_a_number_with_two_intergers()trows Exception {
+Integer result = Demoapplication.additionner(1,2);
+Integer expected = 3;
+
+if (result==expected){
+assert.True(true);
+}
+else {
+assert.True(false);
+}
+}
+
 }
